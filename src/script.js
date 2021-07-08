@@ -3,13 +3,20 @@ let city = "Gold Coast";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
 
 function showTemperature(response) {
-  console.log(city);
-  console.log(response.data);
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");
-  let description = document.querySelector("#temperature-description");
-  temperatureElement.innerHTML = `${temperature}°C`;
-  description.innerHTML = response.data.weather[0].description;
+  let temperatureDescription = document.querySelector(
+    "#temperature-description"
+  );
+  let humidityElement = document.querySelector("#humidity");
+  let humidity = Math.round(response.data.main.humidity);
+  let windElement = document.querySelector("#wind");
+  let wind = Math.round(response.data.wind.speed) * 3.6;
+
+  temperatureElement.innerHTML = `${temperature}`;
+  temperatureDescription.innerHTML = response.data.weather[0].description;
+  humidityElement.innerHTML = `${humidity}`;
+  windElement.innerHTML = `${wind}`;
 }
 
 function citySearch(event) {
