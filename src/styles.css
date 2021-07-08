@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(180deg, #675aff 0%, #b9d5ff 100%);
+  min-height: 100vh;
+}
+h1 {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+i {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-top: 30px;
+  padding: 24px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+.cities-list a {
+  color: #fff;
+}
+.search-container {
+  position: relative;
+  padding: 3px 50px 3px 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+  width: 65%;
+  margin: 0 auto;
+}
+.search-box {
+  margin-top: 2px;
+  background-color: transparent;
+  height: 36px;
+  font-size: 15px;
+  border: 0;
+  width: 100%;
+}
+::placeholder {
+  color: #fff;
+}
+.search-button {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  background-color: #4154ff;
+  border-radius: 20px;
+  border: 0;
+  color: #fff;
+  width: 95px;
+  height: 35px;
+}
+.subtitle {
+  margin-top: -14px;
+}
+.search-box {
+}
+.main-weather-display {
+  margin-bottom: 30px;
+}
+.main-icon {
+  font-size: 80px;
+}
+.main-temperature {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.unit {
+  position: relative;
+  top: -20px;
+  color: #fff;
+}
+.conditions {
+  padding-top: 28px;
+}
+.conditions p {
+  margin-bottom: 0;
+}
+.weather-icon {
+  margin-bottom: 20px;
+}
+.week-weather {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  margin: 0 5px 0 5px;
+}
+.week-weather .day-weather {
+  margin-bottom: 10px;
+}
+.week-weather .weather-icon {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.week-weather .temperature-weather {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #000000;
+}
