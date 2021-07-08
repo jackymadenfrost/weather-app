@@ -44,19 +44,19 @@
       </div>
       <h1 id="city">Gold Coast</h1>
       <div class="row">
-        <div class="col-7 main-weather-display" id="temperature">
+        <div class="col-7 main-weather-display">
           <p class="subtitle">Sun, 6 June 14:07</p>
           <span><i class="fas fa-sun main-icon"></i></span>
-          <span class="main-temperature">23</span>
+          <span class="main-temperature" id="temperature">23</span>
           <span class="unit">
             °C |
             <a href="" class="link-to-fahrenheit"> °F </a>
           </span>
         </div>
         <div class="col-5 conditions">
-          <p id="temperature-description">Sunny</p>
-          <p>Precipitation: 49%</p>
-          <p>Wind: 0km/h</p>
+          <p>Description: <span id="temperature-description"></span></p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          <p>Wind: <span id="wind"></span> Km/h</p>
         </div>
       </div>
       <div class="row">
